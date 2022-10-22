@@ -4,3 +4,11 @@
 I.click('Product 1')
 I.click('.MuiButtonBase-root.MuiButton-root.MuiButton-contained.makeStyles-docked-206.makeStyles-noShadow-207.MuiButton-containedPrimary.MuiButton-containedSizeLarge.MuiButton-sizeLarge')
 I.see('Item added to cart')
+
+<<< Recorded commands on Sat Oct 22 2022 21:16:49 GMT+0500 (Pakistan Standard Time)
+I.fillField('Search...', 'Product 1')
+I.click('Category 1')
+I.click('Category 1')
+
+<<< Recorded commands on Sat Oct 22 2022 21:50:17 GMT+0500 (Pakistan Standard Time)
+I.see('Subcategory 1', 'h1')
