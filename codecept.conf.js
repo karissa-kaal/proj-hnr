@@ -11,7 +11,7 @@ exports.config = {
   tests: './*_test.js',
   output: './output',
   helpers: {
-    Nightmare: {
+    Playwright: {
       url: 'http://localhost:3000',
       show: true
     }
