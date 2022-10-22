@@ -1,0 +1,6 @@
+
+
+<<< Recorded commands on Sat Oct 22 2022 19:42:44 GMT+0500 (Pakistan Standard Time)
+I.click('Product 1')
+I.click('.MuiButtonBase-root.MuiButton-root.MuiButton-contained.makeStyles-docked-206.makeStyles-noShadow-207.MuiButton-containedPrimary.MuiButton-containedSizeLarge.MuiButton-sizeLarge')
+I.see('Item added to cart')
