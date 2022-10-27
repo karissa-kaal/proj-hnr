@@ -33,3 +33,16 @@ Noureen
 Rakeen
 
 Hussain made his UI framework and pulled request on GitHub, Noureen and Rakeen cloned that framework to perform their own test cases.
+
+------------------------------------------------------------------------------
+
+
+## Meeting 4 - 27/10/22
+###  Attendees
+Hussain
+Noureen
+Rakeen
+
+- Exploring API Testing 
+- Finalising tests to do by each person
+- Reviewing last time's work to see if we miss anything
