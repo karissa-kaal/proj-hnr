@@ -46,3 +46,16 @@ Rakeen
 - Exploring API Testing 
 - Finalising tests to do by each person
 - Reviewing last time's work to see if we miss anything
+
+------------------------------------------------------------------------------
+
+
+## Meeting 5 - 02/11/22
+###  Attendees
+Hussain
+Noureen
+Rakeen
+
+- Finalize API Testing 
+- Finish tests of api testing
+- Review, finalize and test all API tests
