@@ -118,7 +118,7 @@ The one I will be discussing in detail and studying thoroughly is [ErrorBoundry.
 
   -Full DOM rendering, including child components, because there are components that interact with child components and they need to be tested too.
   
--Import {eventListnersMock} from ‘./mocks/mockHelper’ https://github.com/storefront-foundation/react-storefront/blob/master/test/mocks/mockHelper.js 
+-Import {eventListnersMock} from [‘./mocks/mockHelper’](https://github.com/storefront-foundation/react-storefront/blob/master/test/mocks/mockHelper.js)
 
   -From where it uses [spyOn.mockImplementation](https://echobind.com/post/how-to-mock-using-jest-spyon-part-2-3) using [jest](https://jestjs.io/docs/jest-object#jestspyonobject-methodname)
   
