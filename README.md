@@ -66,7 +66,7 @@ Rakeen
 
 Testing framework Frisby is used by React StoreFront for its API Testing. Jest expects a json response and compares it to set conditions and then passes or fails.
 
-There are not many choices for selecting API tests within React StoreFront. I chose the test ‘getAPIURL.test.js’. It uses Shallow Rendering(). The test first builds and sets buildId to 1 because of beforeEach function and afterEach deletes window.__NEXT_DATA__. The test checks data within the window of __NEXT_DATA__  and compares it with a set variable and passes or fails it based on the result. 
+There are not many choices for selecting API tests within React StoreFront. I chose the test ‘getAPIURL.test.js’. The test first builds and sets buildId to 1 because of beforeEach function and afterEach deletes window.__NEXT_DATA__. The test checks data within the window of __NEXT_DATA__  and compares it with a set variable and passes or fails it based on the result. 
 
 All sources:
 https://docs.reactstorefront.io/
