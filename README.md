@@ -72,3 +72,15 @@ All sources:
 https://docs.reactstorefront.io/
 https://docs.frisbyjs.com/
 
+------------------------------------------------------------------------------
+
+## Hussain Arslan's Findinds (Task 4)
+
+React Storefront uses the Enzyme framework for UI testing and unit testing. The documentation is available on their official [website](https://enzymejs.github.io/enzyme/) . The UI test that I analysed was the [MenuButton.test.js](https://github.com/storefront-foundation/react-storefront/blob/master/test/menu/MenuButton.test.js) 
+
+Enzyme has three types of rendering, Full DOM rendering, shallow rendering and static rendering. 
+
+Full DOM rendering is used for use cases where there are components that interact with DOM APIs or there is a need to test components that are wrapped in higher order components. 
+
+This test uses full DOM rendering as suggested by the { mount } while importing Enzyme. This test case is all about whether or not the menu button renders correctly. For each case a wrapper is created and a menu button is mounted and after each test is complete that wrapper is unmounted. The name of the function is Fill. If the mounting fails or the icon is not mounted to the menu button, the test fails. 
+
