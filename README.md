@@ -78,6 +78,9 @@ Rakeen
 - Enzyme was not installing so we utilised our time to study more about TestNG
 
 [Image 1](https://raw.githubusercontent.com/hussainarslan/files/main/img1.jpg)
+[Image 2](https://raw.githubusercontent.com/hussainarslan/files/main/img2.jpg)
+[Image 3](https://raw.githubusercontent.com/hussainarslan/files/main/img3.jpg)
+[Image 4](https://raw.githubusercontent.com/hussainarslan/files/main/img4.jpg)
 
 ------------------------------------------------------------------------------
 
@@ -112,15 +115,25 @@ What enzyme does is it goes to all the files that end with “.test.js” and ru
 The one I will be discussing in detail and studying thoroughly is [ErrorBoundry.test.js](https://github.com/storefront-foundation/react-storefront/blob/master/test/ErrorBoundary.test.js)
 
 -Import {mount} from enzyme 
+
   -Full DOM rendering, including child components, because there are components that interact with child components and they need to be tested too.
+  
 -Import {eventListnersMock} from ‘./mocks/mockHelper’ https://github.com/storefront-foundation/react-storefront/blob/master/test/mocks/mockHelper.js 
+
   -From where it uses [spyOn.mockImplementation](https://echobind.com/post/how-to-mock-using-jest-spyon-part-2-3) using [jest](https://jestjs.io/docs/jest-object#jestspyonobject-methodname)
+  
 -Import ErrorBoundary from [‘react-storefront/ErrorBoundary’](https://github.com/storefront-foundation/react-storefront/blob/master/src/ErrorBoundary.js) 
+
 -The ErrorBoundary class is exported and basically gives a response on errors
+
 -wrapper is a variable which is mounted and unmounted in this test case.
+
 -beforeAll calls the eventListnerMock imported.
+
 -afterAll restores all mocks
+
 -afterEach the wrapper is unmounted
+
 -expect.toBe is used to compare the expected text
 
 ------------------------------------------------------------------------------
