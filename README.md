@@ -232,3 +232,13 @@ React 17 is being used in React Storefront and enzyme was not installing on that
 64 verbose code 1
 65 error A complete log of this run can be found in:
 65 error     C:\Users\Dell\AppData\Local\npm-cache\_logs\2022-11-06T17_05_14_578Z-debug-0.log
+
+------------------------------------------------------------------------------
+
+## Noureen Fatima's Findings (Task 5)
+
+After many failed attempts on React Store front, we could not install enzyme. So we moved to Teammates as mentioned above, but failed to run testNG cases as the suite was not working properly. 
+
+After exploring more we found [Exercism](https://exercism.org/) (Open Source Java Exercise code)[https://github.com/exercism/java], in which they used JUnit and AssertJ(Open source java testing framework). 
+
+The link to (Exercism Unit testing)[https://github.com/karissa-kaal/proj-hnr-Unit-ExercismTest] we performed.
