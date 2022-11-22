@@ -1,4 +1,8 @@
 # proj-hnr
+
+NOTE: I DO NOT OWN THIS CODE, LEARNING TESTING
+
+
 ## Meeting 1 - 19/10/22
 ###  Attendees
 Hussain
