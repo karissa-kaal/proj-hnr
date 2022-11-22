@@ -244,7 +244,7 @@ React 17 is being used in React Storefront and enzyme was not installing on that
 After many failed attempts on React Store front, we could not install enzyme. So we moved to Teammates as mentioned above, but failed to run testNG cases as the suite was not working properly. 
 
 
-After exploring more we found [Exercism](https://exercism.org/) [(Open Source Java Exercise code](https://github.com/exercism/java), in which they used JUnit and AssertJ(Open source java testing framework). 
+After exploring more we found [Exercism](https://exercism.org/) [Open Source Java Exercise code](https://github.com/exercism/java), in which they used JUnit and AssertJ(Open source java testing framework). 
 
 The link to [Exercism Unit testing](https://github.com/karissa-kaal/proj-hnr-Unit-ExercismTest) we performed.
 
